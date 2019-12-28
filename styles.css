@@ -7,16 +7,15 @@ div {
   margin-top: 15px;
 }
 
-.image-section {
+.imageClass {
+  display: flex;
+  justify-content: center;
+}
+
+.section-style {
   height: 250px;
    left: 50%;
    position: absolute;
    top: 50%;
    width: 250px
-}
-
-.section-style {
-  margin-right: 25px;
-  margin-left: 25px;
-  background-color: white;
 }
