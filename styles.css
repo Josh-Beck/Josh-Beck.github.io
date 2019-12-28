@@ -7,13 +7,16 @@ div {
   margin-top: 200px;
 }
 
+img {
+	border-radius: 75%;
+}
+
 .imageClass {
   display: flex;
   justify-content: center;
 }
 
 .section-style {
-  height: 400px;
    left: 50%;
-   width: 400px
+   top: 50%;
 }
