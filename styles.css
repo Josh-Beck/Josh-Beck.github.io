@@ -1,10 +1,10 @@
 body {
   text-align: center;
-  background-color: #f0e8c5;
+  background-color: #000000;
 }
 
 div {
-  margin-top: 15px;
+  margin-top: 200px;
 }
 
 .imageClass {
@@ -13,9 +13,7 @@ div {
 }
 
 .section-style {
-  height: 250px;
+  height: 400px;
    left: 50%;
-   /* position: absolute; */
-   top: 50%;
-   width: 250px
+   width: 400px
 }
