@@ -15,7 +15,7 @@ div {
 .section-style {
   height: 250px;
    left: 50%;
-   position: absolute;
+   /* position: absolute; */
    top: 50%;
    width: 250px
 }
