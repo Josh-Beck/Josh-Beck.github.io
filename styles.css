@@ -13,6 +13,7 @@ img {
 }
 
 .imageClass {
+	margin-left: 200px;
   display: flex;
   justify-content: center;
 }
@@ -23,6 +24,7 @@ img {
 }
 
 .sideMenu {
+	overflow: hidden;
 	top: 0;
 	left: 0;
 	background-color: #9f9f9f;
