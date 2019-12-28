@@ -1,7 +1,7 @@
 body {
   text-align: center;
   color: #ffffff;
-  background-color: #797979;
+  background-color: #1d1d16;
 }
 
 div {
@@ -20,4 +20,11 @@ img {
 .section-style {
    left: 50%;
    top: 50%;
+}
+
+.sideMenu {
+	top: 0;
+	left: 0;
+	background-color: #9f9f9f;
+	position: fixed;
 }
