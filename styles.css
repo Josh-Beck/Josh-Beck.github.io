@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #ffffff;
+  background-color: #696969;
 }
 
 div {
@@ -8,7 +8,7 @@ div {
 }
 
 img {
-	border-radius: 75%;
+	border-radius: 90%;
 }
 
 .imageClass {
