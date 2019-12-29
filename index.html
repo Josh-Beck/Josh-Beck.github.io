@@ -7,27 +7,26 @@
   </head>
   <body>
 
-	<div class="sideMenu">
-	
-		<h1><a href="josh-beck.github.io"> Joshua Beck </a></h1>
-		<img src="./Pictures/JoshuaBeckHeadshot.jpg" alt="Joshua Beck Photo" />
-		<h3> Major: Mechanical Engineering </h3>
-		<h3> Minor: Computer Science </h3>
-		
-		<p>Current Position:</p>
-		<p>Software Engineering Part Time Student </p>
-		<h4>
-			<a href="./Projects/JoshuaBeckResume.pdf" download="Joshua Beck Resume">Download My Resume</a>
-		</h4>
-		<h4>	
-		<a href="https://www.linkedin.com/in/joshuatbeck" >LinkedIn Profile</a>
-		</h4>
-		
-    </div>
+	<script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("/Pages/sideMenu.html"); 
+    });
+    </script> 
 	
 	<div class="main">
 	
-	    <iframe src="./Pages/home.html"></iframe> 
+	<h2>Virtual Rubik's Cube</h2>
+        <a href="./Pages/RubiksCubeProjectLink.html">
+			<img src="./Pictures/RubiksCube.jpg" alt="Rubik's Cube" />
+		</a>
+		<div class="section">
+		<p padding="20%", > The Rubik's Cube project was one of the highlights of my sophomore year.
+		The purpose was to create a virtual representation of the cube, in order to 
+		run specific algorithmic tests on it, checking for move cycle counts.
+		This project was completed in Java, and featured object oriented programming, 
+		basic control loops for inputs, an output display and diagnostics.</p>
+      </div>
 	  
 	</div>
   </body>
