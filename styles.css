@@ -1,5 +1,5 @@
 	:root {
-		--sideMenuSize: 30%;
+		--sideMenuSize: 35%;
 	}
 
 	body {
@@ -17,15 +17,17 @@
 
 	span {
 		padding: 0%;
-		margin: 0%;
+		margin: 3%;
+		text-align: center;
+		justify-content: center;
 	}
 
 	img {
-		/* border-radius: 25px; */
-		max-width: 90%;
+		max-width: 85%;
 		max-height: auto;
 		padding-top:5%;
 		padding-bottom:20%:
+		image-orientation: from-image;
 	}
 
 	p {
@@ -90,6 +92,7 @@
 		background-color: #ffffff;
 		z-index: 101;
 		padding: 0;
+		padding-bottom: 5%;
 		margin: 0;
 
 	}
