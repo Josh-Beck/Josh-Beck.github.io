@@ -26,7 +26,7 @@ img {
 
 .section-style {
    /* left: 50%;*/
-   top: 50%;
+   /*top: 50%; */
 }
 
 .sideMenu {
@@ -41,7 +41,7 @@ img {
 	overflow-x: hidden; /* Disable horizontal scroll */
 }
 
-.sidenav a:hover {
+.sideMenu div:hover {
   background-color: #111;
 }
 
