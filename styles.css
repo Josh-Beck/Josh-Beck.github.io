@@ -41,7 +41,7 @@ img {
 	overflow-x: hidden; /* Disable horizontal scroll */
 }
 
-.sideMenu div:hover {
+.sideMenu:hover {
   background-color: #111;
 }
 
