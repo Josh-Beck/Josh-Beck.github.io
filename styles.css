@@ -79,6 +79,12 @@
 	.sideMenu:hover {
 	}
 
+	/* .sideMenuOverlay {
+		color: #111;
+		background-color: #111;
+		z-index: 201;
+	} */
+
 	.main {
 		top: 0;
 		right: 0;
@@ -99,7 +105,7 @@
 
 	.section:hover {
 		background-color: #d6d6d6;
-		z-index: 201;
+		z-index: 102;
 		-webkit-transition:background-color .1s ease-in;
 		-moz-transition:background-color .1s ease-in;
 		-o-transition:background-color .1s ease-in;

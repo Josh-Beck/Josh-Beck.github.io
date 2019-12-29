@@ -2,36 +2,25 @@
 <html>
 <head>
   <title>Joshua Beck</title>
-  <link rel="stylesheet" href="../styles.css" />
-  <script async src="../index.js"></script>
-
-  <!-- <script>
-  $( document ).ready(function() {
-  $("#SideMenu").load("./Pages/sideMenu.html");
-});
-</script> -->
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./index.js"></script>
 </head>
 <body>
 
   <div class="sideMenu">
-    <h1><a href="https://josh-beck.github.io/"> Joshua Beck </a></h1>
-    <img src="./Pictures/JoshuaBeckHeadshot.jpg" alt="Joshua Beck Photo" style="padding-top:0%; padding-bottom:5%; max-width:70%; border-top-right-radius: 25px; border-top-left-radius: 25px; border-bottom-right-radius: 25px 35px; border-bottom-left-radius: 25px 35px;"/>
-    <h3>Fields of Study:</h3>
-    <span>Mechanical Engineering</span><br>
-    <span>Computer Science</span>
-    <h3>Current Position:</h3>
-    <span> Software Engineering Part Time Student</span>
-    <h4>
-      <a href="./Projects/JoshuaBeckResume.pdf" download="Joshua Beck Resume">Download My Resume</a>
-    </h4>
-    <h4>
-      <a href="https://www.linkedin.com/in/joshuatbeck" >LinkedIn Profile</a>
-    </h4>
+    <div sideMenuOverlay="./Pages/sideMenu.html"></div>
   </div>
+  <script>
+    includeHTML();
+  </script>
 
   <div class="main">
+
+    
+    <!-- EDIT HERE -->
     <h1>Biography</h1>
       <img src="./Pictures/CubeSimOutput.jpg" alt="Rubik's Cube"/>
+
 
   </div>
 </body>
