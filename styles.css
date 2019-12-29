@@ -19,7 +19,7 @@ img {
 }
 
 .imageClass {
-	margin-left: 200px;
+	margin-left: 50%;
 	display: flex;
 	justify-content: center;
 }
@@ -43,6 +43,7 @@ img {
 
 .sideMenu:hover {
   background-color: #111;
+  z-index: 201;
 }
 
 .main {
