@@ -13,7 +13,9 @@ div {
 }
 
 img {
-	border-radius: 50%;
+	border-radius: 95%;
+	max-width: 50%;
+	max-height: auto;
 }
 
 .imageClass {
