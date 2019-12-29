@@ -14,8 +14,8 @@ img {
 
 .imageClass {
 	margin-left: 200px;
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .section-style {
@@ -25,7 +25,7 @@ img {
 
 .sideMenu {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 300px; /* Set the width of the sidebar */
+  width: 30%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 200; /* Stay on top */
   top: 0; /* Stay at the top */
