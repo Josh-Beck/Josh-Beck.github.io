@@ -19,7 +19,7 @@ img {
 }
 
 .imageClass {
-	margin-left: 50%;
+	margin-left: 30%;
 	display: flex;
 	justify-content: center;
 }
@@ -42,8 +42,12 @@ img {
 }
 
 .sideMenu:hover {
-  background-color: #111;
+  background-color: #1a1a1a;
   z-index: 201;
+  -webkit-transition:color .5s ease-in; 
+  -moz-transition:color .5s ease-in; 
+  -o-transition:color .5s ease-in; 
+  transition:color .5s ease-in;
 }
 
 .main {
