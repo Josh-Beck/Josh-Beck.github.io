@@ -4,15 +4,14 @@
     <title>Joshua Beck</title>
     <link rel="stylesheet" href="./styles.css" />
     <script async src="./index.js"></script>
+	
+    <script> 
+      $("#SideMenu").load("/Pages/sideMenu.html"); 
+    </script> 
   </head>
   <body>
-
-	<script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("/Pages/sideMenu.html"); 
-    });
-    </script> 
+  
+	<div class="sideMenu" id="SideMenu"></div>
 	
 	<div class="main">
 	
