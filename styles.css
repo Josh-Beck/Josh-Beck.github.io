@@ -23,7 +23,7 @@
 	}
 
 	img {
-		max-width: 85%;
+		max-width: 80%;
 		max-height: auto;
 		padding-top:5%;
 		padding-bottom:20%:
@@ -74,6 +74,7 @@
 		left: 0;
 		background-color: #d6d6d6;
 		overflow-x: hidden; /* Disable horizontal scroll */
+		overflow-y: hidden;
 	}
 
 	.sideMenu:hover {
