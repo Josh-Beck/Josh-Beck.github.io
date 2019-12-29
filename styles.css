@@ -1,9 +1,8 @@
 :root {
-	--sideMenuSize: 35%;
+	--sideMenuSize: 30%;
 }
 
 body {
-  text-align: center;
   color: #111;
   background-color: #ffffff;
 }
@@ -19,18 +18,12 @@ img {
 }
 
 p {
-	   text-align: justify;
+	   text-align: justify;	   
 }
 
-.imageClass {
-	/* margin-left: 30%;
-	display: flex; */
+.section {
 	justify-content: center;
-}
-
-.section-style {
-   /* left: 50%;*/
-   /*top: 50%; */
+	text-align: center;
 }
 
 .sideMenu {
