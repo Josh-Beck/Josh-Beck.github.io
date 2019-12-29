@@ -24,11 +24,17 @@ p {
 }
 
 h1 {
-	font-size: 5%;
+	font-size: 25%;
 }
 
 h2 {
-	font-size: 3%;
+	font-size: 20%;
+}
+
+iframe {
+	top: 0;
+	right: 0;
+	padding-left: var(--sideMenuSize);
 }
 
 .section {
