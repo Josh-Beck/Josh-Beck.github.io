@@ -1,84 +1,95 @@
-:root {
-	--sideMenuSize: 30%;
-}
+	:root {
+		--sideMenuSize: 30%;
+	}
 
-body {
-  color: #111;
-  background-color: #ffffff;
-  justify-content: center;
-  text-align: center;
-  font-family: Georgia, serif;
-}
+	body {
+		color: #111;
+		background-color: #ffffff;
+		justify-content: center;
+		text-align: center;
+		font-family: Georgia, serif;
+	}
 
-div {
-}
+	div {
+	}
 
-img {
-	border-radius: 25px;
-	max-width: 75%;
-	max-height: auto;
-}
-
-p {
-	   text-align: justify;	   
-}
-
-h1 {
-	font-size: 25%;
-}
-
-h2 {
-	font-size: 20%;
-}
-
-iframe {
-	top: 0;
-	right: 0;
-	padding-left: var(--sideMenuSize);
-	border: none;
+	span {
+		padding: 0%;
+		margin: 0%;
+	}
 	
-}
+	img {
+		border-radius: 25px;
+		max-width: 100%;
+		max-height: auto;
+		padding-top:5%;
+		padding-bottom:20%;
+	}
 
-.section {
-}
+	p {
+		text-align: justify;
+		padding: 5%;
+	}
 
-.sideMenu {
-	color: #ffffff;
-	height: 100%; /* Full-height: remove this if you want "auto" height */
-	width: var(--sideMenuSize); /* Set the width of the sidebar */
-	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-	z-index: 200; /* Stay on top */
-	top: 0; /* Stay at the top */
-	left: 0;
-	background-color: #2a2a2a;
-	overflow-x: hidden; /* Disable horizontal scroll */
-}
+	h1 {
+		font-size: 170%;
+		padding: 0%;
+		margin: 5%;
+	}
 
-.main {
-	top: 0;
-	right: 0;
-	/*padding-left: var(--sideMenuSize);*/
-	background-color: d9d9d9;
-	z-index: 100;
-}
+	h2 {
+		font-size: 125%;
+		padding-top: 0%;
+	}
+	h3 {
+		padding: 0px;
+		padding-top: 5%;
+		margin: 0px;
+		border: 0px;
+	}
 
-.main:hover, main:active {
-  background-color: #ffffff;
-  z-index: 101;
-  -webkit-transition:background-color .2s ease-in; 
-  -moz-transition:background-color .2s ease-in; 
-  -o-transition:background-color .2s ease-in; 
-  transition:background-color .2s ease-in;
-}
+	.section {
+	}
 
-a {
-	color: #ffffff;
-	text-decoration: none;
-}
-a:visited {
-  color: #ffffff;
-}
-a:hover, a:active, a:focus {
-  color:#c33;
-  font-weight: bold;
-}
+	.sideMenu {
+		color: #ffffff;
+		height: 100%; /* Full-height: remove this if you want "auto" height */
+		width: var(--sideMenuSize); /* Set the width of the sidebar */
+		position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+		z-index: 200; /* Stay on top */
+		top: 0; /* Stay at the top */
+		left: 0;
+		background-color: #2a2a2a;
+		overflow-x: hidden; /* Disable horizontal scroll */
+	}
+
+	.main {
+		top: 0;
+		right: 0;
+		height: auto;
+		padding-left: var(--sideMenuSize);
+		background-color: #ffffff;
+		z-index: 100;
+
+	}
+
+	.sideMenu:hover {
+		background-color: #111;
+		z-index: 201;
+		-webkit-transition:background-color .2s ease-in;
+		-moz-transition:background-color .2s ease-in;
+		-o-transition:background-color .2s ease-in;
+		transition:background-color .2s ease-in;
+	}
+
+	a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #ffffff;
+	}
+	a:hover, a:active, a:focus {
+		color:#c33;
+		font-weight: bold;
+	}
