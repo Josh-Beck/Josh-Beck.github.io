@@ -1,5 +1,5 @@
 :root {
-	--sideMenuSize: 40%;
+	--sideMenuSize: 35%;
 }
 
 body {
@@ -23,8 +23,8 @@ p {
 }
 
 .imageClass {
-	margin-left: 30%;
-	display: flex;
+	/* margin-left: 30%;
+	display: flex; */
 	justify-content: center;
 }
 
@@ -56,4 +56,15 @@ p {
 
 .main {
 	padding-left: var(--sideMenuSize);
+}
+
+a {
+  color: #ffffff;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover, a:active, a:focus {
+  color:#c33;
+  font-weight: bold;
 }
