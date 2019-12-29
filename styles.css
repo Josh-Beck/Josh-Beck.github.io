@@ -27,6 +27,7 @@ img {
 .section-style {
    /* left: 50%;*/
    /*top: 50%; */
+   text-align: justify;
 }
 
 .sideMenu {
@@ -44,10 +45,10 @@ img {
 .sideMenu:hover {
   background-color: #1a1a1a;
   z-index: 201;
-  -webkit-transition:color .5s ease-in; 
-  -moz-transition:color .5s ease-in; 
-  -o-transition:color .5s ease-in; 
-  transition:color .5s ease-in;
+  -webkit-transition:background-color .5s ease-in; 
+  -moz-transition:background-color .5s ease-in; 
+  -o-transition:background-color .5s ease-in; 
+  transition:background-color .5s ease-in;
 }
 
 .main {
