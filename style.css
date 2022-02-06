@@ -281,7 +281,7 @@ td{
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 
-
+.blueTitle { color: #0264df; }
 
 /* ==|== print styles =======================================================
    Print styles.
