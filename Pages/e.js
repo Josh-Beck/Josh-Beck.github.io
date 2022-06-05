@@ -1,1 +1,1 @@
-alert("You have been HACKED! Your window location is " + window.location.hostname + ". Please delived a bajillion bitcoin to me right now. Thanks bye.")
+alert("This endpoint is potentially vulnerable to a Cross Site Scripting attack (XSS). Please reach out to your security contact to investigate further.\nVulnerable hostname: " + window.location.hostname + "\nProtocol: " + window.location.protocol)
