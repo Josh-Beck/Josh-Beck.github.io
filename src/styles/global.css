@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: Monaco;
+    }
+
+    h1 {
+        @apply text-3xl;
+        @apply font-bold;
+        @apply text-center;
+        @apply primary-color-text;
+    }
+
+    h2 {
+        @apply text-2xl;
+        @apply text-center;
+        @apply secondary-color-text;
+    }
+
+    h3 {
+        @apply text-xl;
+        @apply secondary-color-text;
+    }
+
+    p {
+        @apply text-xl;
+        @apply paragraph-color-text;
+    }
+}
+
+@layer components {
+
+    /* Colors */
+    .primary-color-text {
+        @apply text-cyan-300;
+    }
+
+    .primary-color-bg {
+        @apply bg-cyan-300;
+    }
+
+    .secondary-color-text {
+        @apply text-cyan-500;
+    }
+
+    .secondary-color-bg {
+        @apply bg-cyan-500;
+    }
+
+    .tertiary-color-text {
+        @apply text-cyan-900;
+    }
+
+    .tertiary-color-bg {
+        @apply bg-cyan-900;
+    }
+
+    .paragraph-color-text {
+        @apply text-slate-200;
+    }
+
+    .paragraph-color-bg {
+        @apply bg-slate-300;
+    }
+
+    .screen-background-style {
+        @apply bg-gradient-to-br; 
+        @apply from-slate-800;
+        @apply to-slate-950;
+    }
+
+    .dynamic-button {
+        @apply secondary-color-text;
+        @apply bg-opacity-0;
+        @apply outline;
+        @apply outline-cyan-900;
+    }
+
+    .dynamic-button:hover {
+        @apply tertiary-color-text;
+        @apply primary-color-bg;   
+        @apply transition;
+        @apply ease-in-out;
+        @apply outline-none;
+    }
+
+    /* Styles */
+    .primary-text {
+        @apply primary-color-text;
+        @apply font-bold;
+        @apply text-left;
+    }  
+
+    .paragraph-text {
+        @apply paragraph-color-text;
+        @apply text-left;
+    }
+
+    /* Cards */
+    .dynamic-card {
+        @apply rounded-lg;
+        @apply paragraph-color-bg;
+        @apply bg-opacity-10;
+        @apply shadow-sm;
+        @apply shadow-slate-700;
+    }
+
+    .dynamic-card:hover {
+        @apply transition;
+        @apply ease-in-out;
+        @apply scale-105;
+        @apply bg-opacity-20;
+    }
+
+    /* Icons */
+    .dynamic-hover {
+        @apply rounded-lg;
+    }
+
+    .dynamic-hover:hover {
+        @apply transition;
+        @apply ease-in-out;
+        @apply scale-105;
+        @apply paragraph-color-bg;
+        @apply bg-opacity-10;
+    }
+}
