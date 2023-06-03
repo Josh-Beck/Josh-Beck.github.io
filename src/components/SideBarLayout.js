@@ -1,6 +1,6 @@
 import * as React from "react"
 import Head from "./Head"
-import { BIO } from "../text/bio"
+import { BIO } from "../content/bio"
 import { icons } from "../icons/icons"
 import CoolButton from "./CoolButton"
 import Background from "./Background"
@@ -16,7 +16,7 @@ export default function SideBarLayout(props) {
                 {/* Left bar*/}
                 <div className="w-1/3 absolute" > 
                     <div className="w-full text-6xl p-6 flex mt-16  primary-text">Joshua Beck</div>
-                    <div className="w-full text-2xl pl-7 flex secondary-color-text"> Application Security Engineer</div>
+                    <div className="w-full text-2xl pl-7 flex font-bold paragraph-color-text"> Application Security Engineer</div>
                     <p className="w-full text-lg pl-7 pt-1 flex paragraph-text">{BIO}</p>
 
                     <div className="flex flex-wrap md:w-[90%] w-full">
@@ -42,7 +42,7 @@ export default function SideBarLayout(props) {
                 {/* Scroll content */}
                 <div className="w-full z-10 min-w-0 overflow-auto ...">
                     <div className="ml-[45%]">
-                        <div className="">{props.children}</div>
+                        {props.children}
                     </div>
                     
                 </div>

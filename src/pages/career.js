@@ -10,6 +10,7 @@ export default function Home() {
                         <Card 
                             cardTitle={job.title}
                             cardSubTitle={job.name} 
+                            cardDate={job.date}
                             cardData={job.data} 
                             skill={job.skill}
                             href={job.href} />

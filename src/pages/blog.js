@@ -14,6 +14,7 @@ export default function Blog({ data }) {
                         <Card 
                             cardTitle={node.frontmatter.title} 
                             href={node.frontmatter.slug}
+                            cardDate={node.frontmatter.date}
                             // cardSubTitle={node.frontmatter.date}
                             cardData={node.frontmatter.desc}
                         />
