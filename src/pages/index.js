@@ -6,6 +6,7 @@ import CoolButton from "../components/CoolButton";
 import Icons from "../components/Icons";
 import { linkInformation } from "../content/links"
 import { icons } from "../icons/icons";
+import headshotPortrait from "../content/images/jb.jpg"
 
 let name = "Joshua Beck";
 
@@ -22,7 +23,7 @@ export default function Home() {
 
         <div className="min-h-screen w-screen hidden md:block overflow-hidden screen-background-style">
             <Background />
-            <StaticImage src="../content/images/jb.jpg" className="w-[15%] rounded-3xl mx-auto mt-[8%] flex justify-center items-center z-50" alt="Profile Picture" />
+            <img src={headshotPortrait} className="w-[15%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
             
             <div className="w-full text-7xl flex justify-center primary-text p-5 pb-0">
                 {name}
