@@ -12,7 +12,7 @@ export default function SideBarLayout(props) {
     return (<div className="bg-white flex flex-col h-screen justify-between antialiased">
             <Head />
             {/* Gradient */}
-            <div className="min-h-screen w-screen overflow-x-auto hidden md:flex screen-background-style">
+            <div className="min-h-screen w-screen overflow-x-auto hidden xl:flex screen-background-style">
             <Background />
                 {/* Left bar*/}
                 <div className="w-1/3 absolute" >
@@ -52,11 +52,11 @@ export default function SideBarLayout(props) {
             </div>
 
             {/* MOBILE */}
-            <div className="md:hidden screen-background-style">
+            <div className="xl:hidden screen-background-style">
                 <div className="" > 
                     <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">Joshua Beck</div>
                     <div className="w-full text-3xl flex justify-center paragraph-text"> Application Security </div>
-                    <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 text-center flex paragraph-text">{BIO}</p>
+                    <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center paragraph-text">{BIO}</p>
                 </div>
                 <div className="flex flex-wrap justify-center">
                     {linkInformation.map((item) => (
