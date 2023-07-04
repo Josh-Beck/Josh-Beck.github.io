@@ -1,15 +1,9 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://josh-beck.github.io">
+    <img alt="Josh's Site" src="/static/logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Joshua Beck's Personal Site
 </h1>
 
-
-# Colors
-```
-bg-gray-300
-text-blue-700
-```
