@@ -43,6 +43,6 @@ module.exports = {
               name: `content`,
               path: `${__dirname}/src/content/blog`,
             },
-          },
+        }
     ],
 }

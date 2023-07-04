@@ -1,5 +1,6 @@
 {
   "name": "Josh-Beck.github.io",
+  "homepage": "https://Josh-Beck.github.io/",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -10,7 +11,8 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
@@ -21,6 +23,7 @@
     "gatsby-remark-autolink-headers": "^6.11.0",
     "gatsby-source-filesystem": "^5.10.0",
     "gatsby-transformer-remark": "^6.10.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0"
@@ -34,7 +37,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "gatsby-plugin-postcss": "^6.10.0",
+    "gatsby-plugin-postcss": "^6.11.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
   }
