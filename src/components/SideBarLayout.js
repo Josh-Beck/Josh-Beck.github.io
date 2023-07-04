@@ -17,9 +17,9 @@ export default function SideBarLayout(props) {
                 {/* Left bar*/}
                 <div className="w-1/3 absolute" >
                     <StaticImage src="../content/images/jb.jpg" className="w-[50%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
-                    <div className="w-full text-7xl p-6 pt-0 flex primary-text">Joshua Beck</div>
-                    <div className="w-full text-3xl pl-7 flex font-bold paragraph-color-text"> Application Security Engineer</div>
-                    <p className="w-[90%] text-2xl pl-7 pt-1 flex paragraph-text">{BIO}</p>
+                    <div className="w-full text-6xl p-6 pt-0 flex primary-text">Joshua Beck</div>
+                    <div className="w-full text-2xl pl-7 flex font-bold paragraph-color-text"> Application Security Engineer</div>
+                    <p className="w-[90%] text-xl pl-7 pt-1 flex paragraph-text">{BIO}</p>
 
                     <div className="flex flex-wrap w-full">
                     {/* {linkInformation.filter((item) => props.name !== item.icon).map((item) => ( */}
