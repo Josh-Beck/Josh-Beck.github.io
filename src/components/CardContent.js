@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function CardContent(props) {
     return (<div>
-                    <div id={props.cardTitle} className="text-3xl primary-text">
+                    <div id={props.cardTitle} className="text-2xl primary-text">
                         {props.cardTitle}
                     </div>
 

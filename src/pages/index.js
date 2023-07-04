@@ -62,7 +62,7 @@ export default function Home() {
         {/* MOBILE */}
         <div className="min-h-screen w-screen md:hidden overflow-hidden screen-background-style">
 
-        <StaticImage src="../content/images/jb.jpg" className="w-[50%] rounded-3xl mx-auto mt-[5%] flex justify-center items-center z-50" alt="Profile Picture" />
+        <img src={headshotPortrait} className="w-[15%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
         <div className="w-full text-4xl text-center z-50 flex justify-center primary-text p-5">
                 {name}
             </div>

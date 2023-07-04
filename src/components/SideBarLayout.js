@@ -18,8 +18,8 @@ export default function SideBarLayout(props) {
                 <div className="w-1/3 absolute" >
                     <StaticImage src="../content/images/jb.jpg" className="w-[50%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
                     <div className="w-full text-6xl p-6 pt-0 flex primary-text">Joshua Beck</div>
-                    <div className="w-full text-2xl pl-7 flex font-bold paragraph-color-text"> Application Security Engineer</div>
-                    <p className="w-[90%] text-xl pl-7 pt-1 flex paragraph-text">{BIO}</p>
+                    <div className="w-full text-xl pl-7 flex font-bold paragraph-color-text"> Application Security Engineer</div>
+                    <p className="w-[90%] text-lg pl-7 pt-1 flex paragraph-text">{BIO}</p>
 
                     <div className="flex flex-wrap w-full">
                     {/* {linkInformation.filter((item) => props.name !== item.icon).map((item) => ( */}
@@ -54,7 +54,7 @@ export default function SideBarLayout(props) {
             {/* MOBILE */}
             <div className="md:hidden screen-background-style">
                 <div className="" > 
-                    <div className="w-full text-6xl p-6 flex mt-12 text-center justify-center primary-text">Joshua Beck</div>
+                    <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">Joshua Beck</div>
                     <div className="w-full text-3xl flex justify-center paragraph-text"> Application Security </div>
                     <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 text-center flex paragraph-text">{BIO}</p>
                 </div>
