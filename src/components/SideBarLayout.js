@@ -12,14 +12,14 @@ export default function SideBarLayout(props) {
     return (<div className="bg-white flex flex-col h-screen justify-between antialiased">
             <Head />
             {/* Gradient */}
-            <div className="min-h-screen w-screen overflow-x-auto hidden xl:flex screen-background-style">
+            <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex screen-background-style">
             <Background />
                 {/* Left bar*/}
                 <div className="w-1/3 absolute" >
                     <StaticImage src="../content/images/jb.jpg" className="w-[50%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
                     <div className="w-full text-6xl p-6 pt-0 flex primary-text">Joshua Beck</div>
                     <div className="w-full text-xl pl-7 flex font-bold paragraph-color-text"> Application Security Engineer</div>
-                    <p className="w-[90%] text-lg pl-7 pt-1 flex paragraph-text">{BIO}</p>
+                    <p className="w-[90%] text-lg pl-7 pt-1 md:flex lg:hidden xl:flex paragraph-text">{BIO}</p>
 
                     <div className="flex flex-wrap w-full">
                     {/* {linkInformation.filter((item) => props.name !== item.icon).map((item) => ( */}
@@ -52,7 +52,7 @@ export default function SideBarLayout(props) {
             </div>
 
             {/* MOBILE */}
-            <div className="xl:hidden screen-background-style">
+            <div className="lg:hidden screen-background-style">
                 <div className="" > 
                     <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">Joshua Beck</div>
                     <div className="w-full text-3xl flex justify-center paragraph-text"> Application Security </div>
@@ -69,7 +69,7 @@ export default function SideBarLayout(props) {
                     ))}
                 </div>
                 {props.children}
-                <div id="icons" className="xl:hidden flex p-5 bottom-0 justify-center">
+                <div id="icons" className="lg:hidden flex p-5 bottom-0 justify-center">
                         {icons.map((item) => (
                             <Icons 
                                 name={item.name} 
