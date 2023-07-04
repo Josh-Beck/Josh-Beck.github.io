@@ -55,7 +55,7 @@ export default function SideBarLayout(props) {
             <div className="lg:hidden screen-background-style">
                 <div className="" > 
                     <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">Joshua Beck</div>
-                    <div className="w-full text-3xl flex justify-center primary-color-text font-bold"> Application Security </div>
+                    <div className="w-full text-3xl flex justify-center paragraph-color-text font-bold"> Application Security </div>
                     <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center text-center paragraph-color-text">{BIO}</p>
                 </div>
                 <div className="flex flex-wrap justify-center">
