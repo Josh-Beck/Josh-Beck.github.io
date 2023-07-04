@@ -1,8 +1,5 @@
 import React from 'react'
-import { navigate } from 'gatsby'
 
-const NotFoundPage = () => {
-  return navigate('/')
+export default function NotFoundPage() {
+    return (<meta http-equiv="Refresh" content="0; url='https://josh-beck.github.io'" />);
 }
-
-export default NotFoundPage
