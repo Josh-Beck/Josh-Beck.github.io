@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import SideBarLayout from "../components/SideBarLayout"
+import RegularTextBar from "../components/RegularTextBar"
 
 export default function BlogPostTemplate({ data }) {
   const { markdownRemark } = data 
@@ -8,20 +9,16 @@ export default function BlogPostTemplate({ data }) {
   return (
     <div>
         <SideBarLayout name="">
-            <div className="items-center hidden md:block mt-24">
-                <h1 className="items-center mr-40">{frontmatter.title}</h1>
-                <h2 className="items-center text-center pb-10 pt-3 mr-40">{frontmatter.date}</h2>
-                <div className="mr-24"
-                dangerouslySetInnerHTML={{ __html: html }}
-                />
-            </div>
-            <div className="m-10 mt-20 md:hidden">
-                <h1 className="items-center">{frontmatter.title}</h1>
-                <h2 className="items-center text-center pb-10 pt-3">{frontmatter.date}</h2>
-                <div className=""
-                    dangerouslySetInnerHTML={{ __html: html }}
-                />
-            </div>
+            <RegularTextBar 
+                name=""
+                title={frontmatter.title}
+                subTitle={frontmatter.date}
+                content={
+                    <div className=""
+                        dangerouslySetInnerHTML={{ __html: html }}
+                    />
+                }
+            />
         </SideBarLayout>
     </div>
   )

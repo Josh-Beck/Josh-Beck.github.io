@@ -3,19 +3,19 @@ import { Link } from "gatsby"
 
 export default function CardContent(props) {
     return (<div>
-                    <div id={props.cardTitle} className="text-xl primary-text">
+                    <div id={props.cardTitle} className="text-3xl primary-text">
                         {props.cardTitle}
                     </div>
 
-                    <div className="text-md font-bold pt-1 paragraph-color-text">
+                    <div className="text-2xl font-bold pt-1 paragraph-color-text">
                         {props.cardSubTitle}
                     </div>
 
-                    <div className="text-sm font-bold pt-1 paragraph-color-text">
+                    <div className="text-lg font-bold pt-1 paragraph-color-text">
                         {props.cardDate}
                     </div>
 
-                    <div className="text-sm pt-3 paragraph-text">
+                    <div className="text-xl pt-3 paragraph-text">
                         {props.cardData}
                     </div>
                     

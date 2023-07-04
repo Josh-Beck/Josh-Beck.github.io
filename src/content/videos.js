@@ -1,10 +1,10 @@
 import * as React from "react";
 
-let cloudSecurity = `Join me as I walk through some of the basic elements of cloud security and encourage listeners
-to avoid common pitfalls of shifting legacy applications directly into the cloud.`
+let cloudSecurity = `Join me as I walk through a few basic elements of cloud security and encourage listeners
+to avoid some common pitfalls of shifting legacy applications directly into the cloud.`
 
 let uscLecture = `In April of 2023 I was invited to give a lecture for USC's secure software course, and attend a Q&A session after.
- I spent time with the students walking through code security, how they can learn and grow in application security skills, and 
+ I taught on code security, informed them how they can learn and grow in application security skills, and 
  answered career growth questions.`
 
 

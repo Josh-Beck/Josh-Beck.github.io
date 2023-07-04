@@ -6,7 +6,8 @@ export default function Icons(props) {
             <a
             key={props.name}
             href={props.href}
-            className="z-50 m-1 block px-3 py-2 paragraph-text hover:primary-text dynamic-hover"
+            target="_blank"
+            className="z-50 m-1 block px-3 py-2 tertiary-color-text hover:primary-text dynamic-hover"
             >
             {props.name}
             </a>
