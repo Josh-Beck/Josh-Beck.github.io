@@ -56,7 +56,7 @@ export default function SideBarLayout(props) {
                 <div className="" > 
                     <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">Joshua Beck</div>
                     <div className="w-full text-3xl flex justify-center paragraph-text"> Application Security </div>
-                    <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center paragraph-text">{BIO}</p>
+                    <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center items-center paragraph-text">{BIO}</p>
                 </div>
                 <div className="flex flex-wrap justify-center">
                     {linkInformation.map((item) => (
@@ -69,7 +69,7 @@ export default function SideBarLayout(props) {
                     ))}
                 </div>
                 {props.children}
-                <div id="icons" className="md:hidden flex p-5 bottom-0 justify-center">
+                <div id="icons" className="xl:hidden flex p-5 bottom-0 justify-center">
                         {icons.map((item) => (
                             <Icons 
                                 name={item.name} 
