@@ -71,10 +71,6 @@ export default function Home() {
                 {job}
             </div>
 
-            <div className="w-full text-xl flex text-center z-50 justify-center paragraph-text pt-2">
-                {email}
-            </div>
-
             <div className="flex flex-wrap justify-center">
                 {linkInformation.map((item) => (
                     <CoolButton 
