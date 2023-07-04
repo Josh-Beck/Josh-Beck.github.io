@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkJosh_Beck_github_io=self.webpackChunkJosh_Beck_github_io||[]).push([[883],{429:function(e,u,h){h.r(u);h(7294);var i=h(1883);u.default=()=>(0,i.navigate)("/")}}]);
+//# sourceMappingURL=component---src-pages-404-js-89b8062976aee71f636d.js.map
