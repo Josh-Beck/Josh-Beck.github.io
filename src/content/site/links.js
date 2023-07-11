@@ -1,11 +1,8 @@
-
-
-
 export const linkInformation = [
     {
         "icon":"bio",
         "title":"Bio",
-        "href":"/"
+        "href":"/profile"
     },
     {
         "icon":"career",

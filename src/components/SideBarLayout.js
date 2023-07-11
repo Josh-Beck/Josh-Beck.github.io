@@ -1,6 +1,6 @@
 import * as React from "react"
 import Head from "./Head"
-import { DESC, JOB_TITLE, NAME } from "../content/data/leftBarDetails"
+import { DESC, JOB_TITLE, NAME } from "../content/data/titleDetails"
 import { icons } from "../content/site/socialIcons"
 import CoolButton from "./CoolButton"
 import Icons from "./Icons"
