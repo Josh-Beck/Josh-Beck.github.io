@@ -3,25 +3,15 @@
 
 export const linkInformation = [
     {
-        "icon":"home",
-        "title":"Home",
+        "icon":"bio",
+        "title":"Bio",
         "href":"/"
-    },
-    {
-        "icon":"profile",
-        "title":"Profile",
-        "href":"/profile"
     },
     {
         "icon":"career",
         "title":"Career",
         "href":"/career"
     },
-    // {
-    //     "icon":"skill",
-    //     "title":"Skills",
-    //     "href":"/skills"
-    // },
     {
         "icon":"blog",
         "title":"Blog",
@@ -36,5 +26,5 @@ export const linkInformation = [
         "icon":"contact",
         "title":"Contact",
         "href":"/contact"
-    },
+    }
 ]

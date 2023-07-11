@@ -1,28 +1,24 @@
 import * as React from "react"
 import Head from "./Head"
-import { BIO } from "../content/bio"
-import { icons } from "../icons/icons"
+import { DESC, JOB_TITLE, NAME } from "../content/data/leftBarDetails"
+import { icons } from "../content/site/socialIcons"
 import CoolButton from "./CoolButton"
-import Background from "./Background"
 import Icons from "./Icons"
-import { linkInformation } from "../content/links"
+import { linkInformation } from "../content/site/links"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function SideBarLayout(props) {
     return (<div className="bg-white flex flex-col h-screen justify-between antialiased">
             <Head />
-            {/* Gradient */}
-            <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex screen-background-style">
-            <Background />
+            <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex paragraph-color-bg">
                 {/* Left bar*/}
                 <div className="w-1/3 absolute" >
-                    <StaticImage src="../content/images/jb.jpg" className="w-[50%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
-                    <div className="w-full text-6xl p-6 pt-0 flex primary-text">Joshua Beck</div>
-                    <div className="w-full text-xl pl-7 flex font-bold paragraph-color-text"> Application Security Engineer</div>
-                    <p className="w-[90%] text-lg pl-7 pt-1 md:flex lg:hidden xl:flex paragraph-text">{BIO}</p>
+                    <StaticImage src="../content/images/headShot.jpg" className="w-[50%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
+                    <div className="w-full text-6xl p-6 pt-0 flex primary-text">{NAME}</div>
+                    <div className="w-full text-xl pl-7 flex font-bold paragraph-color-text">{JOB_TITLE}</div>
+                    <p className="w-[90%] text-lg pl-7 pt-1 md:flex lg:hidden xl:flex paragraph-text">{DESC}</p>
 
                     <div className="flex flex-wrap w-full">
-                    {/* {linkInformation.filter((item) => props.name !== item.icon).map((item) => ( */}
                     {linkInformation.map((item) => (
                         <CoolButton 
                         href={item.href}
@@ -39,8 +35,6 @@ export default function SideBarLayout(props) {
                             />
                         ))}
                     </div>
-
-
                 </div>
                 {/* Scroll content */}
                 <div className="w-full z-10 min-w-0 overflow-auto ...">
@@ -53,14 +47,13 @@ export default function SideBarLayout(props) {
 
             {/* MOBILE */}
             <div className="lg:hidden screen-background-style">
-                <div className="" > 
-                    <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">Joshua Beck</div>
-                    <div className="w-full text-3xl flex justify-center paragraph-color-text font-bold"> Application Security </div>
-                    <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center text-center paragraph-color-text">{BIO}</p>
-                </div>
+                <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">{NAME}</div>
+                <div className="w-full text-3xl flex justify-center paragraph-color-text font-bold"> {JOB_TITLE} </div>
+                <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center text-center paragraph-color-text">{DESC}</p>
+                
+                {/* Button Links */}
                 <div className="flex flex-wrap justify-center">
                     {linkInformation.map((item) => (
-
                         <CoolButton 
                         href={item.href}
                         icon={item.icon}

@@ -1,7 +1,7 @@
 import * as React from "react"
 import SideBarLayout from "../components/SideBarLayout";
 import Card from "../components/Card";
-import { videoInformation } from "../content/videos";
+import { videoInformation } from "../content/data/videos";
 
 export default function Video() {
   return <div>
@@ -12,7 +12,6 @@ export default function Video() {
                             cardSubTitle={video.name} 
                             cardDate={video.date}
                             cardData={video.data} 
-                            skill={video.skill}
                             href={video.href}
                             video={video.video} />
                 ))}

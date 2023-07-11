@@ -1,6 +1,6 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 
+export const PROFILE_TITLE = "Who is Joshua Beck?";
 
 export default function ProfileContent() {
     return (

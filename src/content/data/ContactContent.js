@@ -1,5 +1,7 @@
 import * as React from "react"
 
+export const CONTACT_TITLE = "Contact Information";
+
 export default function ContactContent() {
     return (
         <div>

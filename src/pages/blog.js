@@ -15,7 +15,6 @@ export default function Blog({ data }) {
                             cardTitle={node.frontmatter.title} 
                             href={node.frontmatter.slug}
                             cardDate={node.frontmatter.date}
-                            // cardSubTitle={node.frontmatter.date}
                             cardData={node.frontmatter.desc}
                         />
 
@@ -27,8 +26,6 @@ export default function Blog({ data }) {
 function compareFn(a,b) {
    return a.frontmatter.priority > b.frontmatter.priority;
 }
-
-
 
 export const pageQuery = graphql`
 query {

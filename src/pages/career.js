@@ -1,7 +1,7 @@
 import * as React from "react"
 import SideBarLayout from "../components/SideBarLayout";
 import Card from "../components/Card";
-import { jobInformation } from "../content/jobs";
+import { jobInformation } from "../content/data/jobs";
 
 export default function Home() {
   return <div>
@@ -11,8 +11,7 @@ export default function Home() {
                             cardTitle={job.title}
                             cardSubTitle={job.name} 
                             cardDate={job.date}
-                            cardData={job.data} 
-                            skill={job.skill}
+                            cardData={job.data}
                             href={job.href} />
                 ))}
             </SideBarLayout>     
