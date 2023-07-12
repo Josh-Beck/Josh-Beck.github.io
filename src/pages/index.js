@@ -47,7 +47,7 @@ export default function Home() {
         {/* MOBILE */}
         <div className="min-h-screen w-screen lg:hidden overflow-hidden screen-background-style">
 
-        <img src={headShot} className="w-[40%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
+        <img src={headShot} className="w-[50%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
         <div className="w-full text-4xl text-center z-50 flex justify-center primary-text p-5">
             {NAME}
         </div>

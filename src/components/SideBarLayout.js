@@ -16,7 +16,7 @@ export default function SideBarLayout(props) {
                     <img src={headshotPhoto} className="w-[50%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
                     <div className="w-full text-6xl p-6 pt-0 flex primary-text">{NAME}</div>
                     <div className="w-full text-xl pl-7 flex font-bold paragraph-color-text">{JOB_TITLE}</div>
-                    <p className="w-[90%] text-lg pl-7 pt-1 md:flex lg:hidden xl:flex paragraph-text">{DESC}</p>
+                    <p className="w-[90%] text-lg pl-7 pt-1 paragraph-text">{DESC}</p>
 
                     <div className="flex flex-wrap w-full">
                     {linkInformation.map((item) => (
@@ -61,7 +61,9 @@ export default function SideBarLayout(props) {
                         />
                     ))}
                 </div>
-                {props.children}
+                <div className="px-4">
+                    {props.children}
+                </div>
                 <div id="icons" className="lg:hidden flex p-5 bottom-0 justify-center">
                         {icons.map((item) => (
                             <Icons 

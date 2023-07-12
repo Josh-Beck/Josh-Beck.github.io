@@ -6,7 +6,6 @@ import Card from "../components/Card";
 export default function Blog({ data }) {
 
     let nodes = data.allMarkdownRemark.nodes;
-    console.log(nodes)
 
     return (<div>
                 <SideBarLayout name="blog">
