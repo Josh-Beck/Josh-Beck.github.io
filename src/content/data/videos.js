@@ -13,7 +13,7 @@ export const videoInformation = [
         "date": "January 2023",
         "data": cloudSecurity,
         "href": "https://www.youtube.com/watch?v=KMlow3DsC3A",
-        "video": '<iframe style="height:200px; width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/KMlow3DsC3A" title="YouTube video player" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        "video": '<iframe style="height:250px; width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/KMlow3DsC3A" title="YouTube video player" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
     },
     {
         "title":"Juice Shop Secure Code Walkthrough",
