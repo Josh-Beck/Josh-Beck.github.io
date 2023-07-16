@@ -12,11 +12,11 @@ export default function SideBarLayout(props) {
             <Head />
             <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex paragraph-color-bg">
                 {/* Left bar*/}
-                <div className="w-1/3 absolute" >
-                    <img src={headshotPhoto} className="w-[50%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
+                <div className="w-[40%] absolute" >
+                    <img src={headshotPhoto} className="w-[45%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
                     <div className="w-full text-6xl p-6 pt-0 flex primary-text overflow-visible whitespace-nowrap">{NAME}</div>
                     <div className="w-full text-xl pl-7 flex font-bold paragraph-color-text">{JOB_TITLE}</div>
-                    <p className="w-[90%] text-lg pl-7 pt-1 paragraph-text md:flex lg:hidden xl:flex">{DESC}</p>
+                    <p className="w-[90%] text-lg pl-7 pt-1 paragraph-text">{DESC}</p>
 
                     <div className="flex flex-wrap w-full">
                     {linkInformation.map((item) => (
