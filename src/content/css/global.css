@@ -98,34 +98,38 @@
     }
 
     h1 {
-        @apply text-4xl;
+        @apply text-3xl;
+        @apply md:text-4xl;
         @apply font-bold;
         @apply text-center;
         @apply primary-color-text;
     }
 
     h2 {
-        @apply text-3xl;
+        @apply text-2xl;
+        @apply md:text-3xl;
         @apply text-center;
         @apply primary-color-text;
     }
 
     h3 {
-        @apply text-2xl;
+        @apply text-xl;
+        @apply md:text-2xl;
         @apply primary-color-text;
         @apply first:pt-0;
         @apply pt-14;
     }
 
     h4 {
-        @apply text-xl;
+        @apply text-lg;
+        @apply md:text-xl;
         @apply primary-color-text;
         @apply first:pt-0;
         @apply pt-14;
     }
 
     h5 {
-        @apply text-lg;
+        @apply md:text-xl;
         @apply primary-color-text;
         @apply first:pt-0;
         @apply pt-14;
@@ -134,7 +138,7 @@
     p {
         @apply first:pt-4;
         @apply pt-5;
-        @apply text-xl;
+        @apply md:text-xl;
         @apply paragraph-color-text;
         @apply leading-8;
     }
@@ -163,7 +167,7 @@
     ul {
         @apply pt-4;
         @apply pl-4;
-        @apply text-xl;
+        @apply md:text-xl;
     }
 
     code {

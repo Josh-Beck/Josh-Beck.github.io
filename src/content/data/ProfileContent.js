@@ -15,11 +15,12 @@ export default function ProfileContent() {
             I have earned 4 certifications which display my passion for learning and
             pedigree of cyber skills. These were chosen to support my general security knowledge, cloud development 
             abilities and offensive testing skills.<br /><br />
+            
             <ul>
-            <li>CompTIA Security+</li>
-            <li>AWS Developer Associate</li>
-            <li>AWS Security Specialty</li>
-            <li>Offensive Security Web Assessor (OSWA)</li>
+                <li>CompTIA Security+</li>
+                <li>AWS Developer Associate</li>
+                <li>AWS Security Specialty</li>
+                <li>Offensive Security Web Assessor (OSWA)</li>
             </ul>
             
             <h3> HackTheBox </h3>
