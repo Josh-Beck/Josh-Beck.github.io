@@ -10,7 +10,7 @@ import headshotPhoto from "../content/images/headShot.jpg"
 export default function SideBarLayout(props) {
     return (<div className="bg-white flex flex-col h-screen justify-between antialiased">
             <Head />
-            <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex paragraph-color-bg">
+            <div className="min-h-screen w-screen overflow-x-auto hidden lg:flex main-color-bg">
                 {/* Left bar*/}
                 <div className="w-[40%] absolute" >
                     <img src={headshotPhoto} className="w-[45%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
@@ -46,7 +46,7 @@ export default function SideBarLayout(props) {
             </div>
 
             {/* MOBILE */}
-            <div className="lg:hidden screen-background-style">
+            <div className="lg:hidden screen-background-style main-color-bg">
                 <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">{NAME}</div>
                 <div className="w-full text-3xl flex justify-center text-center paragraph-color-text font-bold"> {JOB_TITLE} </div>
                 <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center text-center paragraph-color-text">{DESC}</p>
@@ -61,7 +61,7 @@ export default function SideBarLayout(props) {
                         />
                     ))}
                 </div>
-                <div className="px-4">
+                <div className="">
                     {props.children}
                 </div>
                 <div id="icons" className="lg:hidden flex p-5 bottom-0 justify-center">

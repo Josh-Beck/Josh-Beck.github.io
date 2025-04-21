@@ -1,7 +1,7 @@
 import * as React from "react"
 import CardContent from "./CardContent"
 
-let topLevelVars = "group items-center last:mb-20 max-w-6xl m-6 mt-16 p-6 dynamic-card"
+let topLevelVars = "group items-center last:mb-10 max-w-6xl m-6 mt-16 p-6 dynamic-card"
 
 export default function Card(props) {
     return (

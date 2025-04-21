@@ -1,8 +1,9 @@
 ---
 slug: "/blog/oswa"
-date: "2023-05-30"
+date: "April 2023"
 title: "My Experience with the OSWA Certification"
-desc: "In April of 2023 I passed the OSWA, a 24 web application hacking certification. See how I did it, what I learned, and how you can pass it too!"
+subtitle: "Offensive Security Web Assessor"
+desc: "In April of 2023 I passed the OSWA, a web application hacking certification. See how I did it, what I learned, and how you can pass it too!"
 priority: 1
 ---
 

@@ -5,7 +5,7 @@ export default function CardContent(props) {
                 <div id={props.cardTitle} className="text-2xl primary-text">
                     {props.cardTitle}
                 </div>
-                <div className="text-2xl font-bold pt-1 paragraph-color-text">
+                <div className="text-xl font-bold pt-1 secondary-color-text">
                     {props.cardSubTitle}
                 </div>
                 <div className="text-lg font-bold pt-1 paragraph-color-text">

@@ -5,19 +5,19 @@
 @layer components {
     /* CHANGE COLORS BELOW */
     .primary-color-text {
-        @apply text-blue-600;
+        @apply text-stone-200;
     }
 
     .primary-color-bg {
-        @apply bg-blue-600;
+        @apply bg-stone-300;
     }
 
     .secondary-color-text {
-        @apply text-blue-800;
+        @apply text-rose-300;
     }
 
     .tertiary-color-text {
-        @apply text-gray-500;
+        @apply text-stone-200;
     }
 
     .tertiary-color-bg {
@@ -29,15 +29,19 @@
     }
 
     .paragraph-color-text {
-        @apply text-black;
+        @apply text-stone-200;
     }
 
     .paragraph-color-bg {
-        @apply bg-white;
+        @apply bg-stone-400;
+    }
+
+    .main-color-bg {
+        @apply bg-gradient-to-r from-stone-900 to-rose-950;
     }
 
     .cool-button-text-color {
-        @apply text-white;
+        @apply text-rose-950;
     }
     /* ^^ CHANGE COLORS ABOVE ^^ */
 
@@ -63,11 +67,9 @@
     .dynamic-card {
         @apply rounded-xl;
         @apply paragraph-color-bg;
-        @apply bg-opacity-50;
-        @apply border-2;
-        @apply border-slate-500;
-        @apply shadow-md;
-        @apply shadow-slate-500;
+        @apply bg-opacity-10;
+        @apply shadow-sm;
+        @apply shadow-stone-800;
     }
 
     .dynamic-card:hover {
@@ -75,7 +77,7 @@
         @apply ease-in-out;
         @apply scale-105;
         @apply shadow-lg;
-        @apply shadow-slate-700;
+        @apply shadow-stone-900;
     }
 
     /* Icons */
@@ -115,9 +117,9 @@
     h3 {
         @apply text-xl;
         @apply md:text-2xl;
-        @apply primary-color-text;
+        @apply secondary-color-text;
         @apply first:pt-0;
-        @apply pt-14;
+        @apply pt-8;
     }
 
     h4 {
@@ -136,8 +138,7 @@
     }
 
     p {
-        @apply first:pt-4;
-        @apply pt-5;
+        @apply pt-2;
         @apply md:text-xl;
         @apply paragraph-color-text;
         @apply leading-8;

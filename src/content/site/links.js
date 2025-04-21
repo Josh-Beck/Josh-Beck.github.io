@@ -11,13 +11,8 @@ export const linkInformation = [
     },
     {
         "icon":"blog",
-        "title":"Blog",
-        "href":"/blog"
-    },
-    {
-        "icon":"video",
-        "title":"Presentations",
-        "href":"/video"
+        "title":"Portfolio",
+        "href":"/portfolio"
     },
     {
         "icon":"contact",

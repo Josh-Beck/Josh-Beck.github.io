@@ -8,13 +8,12 @@ export default function ContactContent() {
 
             {/* <h3> Contact </h3> */}
             If you would like to reach me regarding personal questions, please feel free to email me
-            at <a href="mailto:joshuathomasbeck@gmail.com">JoshuaThomasBeck@gmail.com</a>. 
-            I would be happy to get to know you and see how I can 
-            support your cyber security journey! 
+            at <a href="mailto:joshuathomasbeck@gmail.com">JoshuaThomasBeck@gmail.com</a>. I am very passionate about recruiting and
+            career development, and would be happy to get to know you and see how I can support your cyber security journey! 
             <br/>
             <br/>
-            If you are looking to contact me regarding my work at <a href="https://www.deere.com">John Deere</a>, please contact
-            me at <a href="mailto:beckjoshua@johndeere.com">BeckJoshua@johndeere.com</a>.
+            If you are looking to contact me regarding my work at SAS or with the OWASP GenAI Project, please contact
+            me at <a href="mailto:josh.beck@sas.com">Josh.Beck@sas.com</a>.
         </div>
     )
 }

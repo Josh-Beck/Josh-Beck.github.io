@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="">
         <Head />
-        <div className="min-h-screen w-screen hidden lg:block overflow-hidden screen-background-style">
+        <div className="min-h-screen w-screen hidden lg:block overflow-hidden screen-background-style main-color-bg">
             <img src={headShot} className="w-[20%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
 
             <div className="w-full text-7xl flex justify-center primary-text p-5 pb-0">
@@ -32,7 +32,7 @@ export default function Home() {
                         ))}
             </div>
 
-            <div id="icons" className="z-50 left-0 absolute top-1/2 -mt-24 paragraph-color-bg bg-opacity-100 rounded-lg">
+            <div id="icons" className="z-50 left-0 absolute top-1/2 -mt-24 bg-opacity-0 rounded-lg">
                 {icons.map((item) => (
                     <Icons 
                         name={item.name} 
@@ -45,9 +45,9 @@ export default function Home() {
         </div>
 
         {/* MOBILE */}
-        <div className="min-h-screen w-screen lg:hidden overflow-hidden screen-background-style">
+        <div className="min-h-screen w-screen lg:hidden overflow-hidden screen-background-style main-color-bg">
 
-        <img src={headShot} className="w-[50%] rounded-3xl mx-auto mt-[8%] z-50 flex justify-center items-center"></img>
+        <img src={headShot} className="w-[50%] rounded-3xl mx-auto mt-[20%] z-50 flex justify-center items-center"></img>
         <div className="w-full text-4xl text-center z-50 flex justify-center primary-text p-5">
             {NAME}
         </div>
@@ -66,7 +66,7 @@ export default function Home() {
             ))}
         </div>
 
-        <div id="icons" className="z-50 flex p-5 justify-center">
+        <div id="icons" className="z-50 flex p-5 justify-center bg-opacity-0">
             {icons.map((item) => (
                 <Icons 
                     name={item.name} 

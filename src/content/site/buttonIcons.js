@@ -2,8 +2,9 @@ import * as React from "react"
 import { 
     CgProfile, CgNotes,
     CgBriefcase, CgPlayButtonO,
-    CgArrowRight, CgPhone
+    CgArrowRight
  } from "react-icons/cg"
+ import { FiMail } from "react-icons/fi";
 
 let iconSize = 20;
 
@@ -13,7 +14,7 @@ export function iconSelector(str) {
         case "video": return <CgPlayButtonO size={iconSize} />;
         case "career": return <CgBriefcase size={iconSize} />;
         case "bio": return <CgProfile size={iconSize} />;
-        case "contact": return <CgPhone size={iconSize} />;
+        case "contact": return <FiMail size={iconSize} />;
 
         // Arrow displayed on hover for all buttons
         case "arrow": return <CgArrowRight size={iconSize} />;
