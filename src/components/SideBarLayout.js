@@ -49,19 +49,25 @@ export default function SideBarLayout(props) {
             <div className="lg:hidden screen-background-style main-color-bg">
                 <div className="w-full text-5xl p-6 flex mt-12 text-center justify-center primary-text">{NAME}</div>
                 <div className="w-full text-3xl flex justify-center text-center paragraph-color-text font-bold"> {JOB_TITLE} </div>
-                <p className="w-full text-lg p-2 pt-3 mb-8 pr-3 flex justify-center text-center paragraph-color-text">{DESC}</p>
+                <p className="w-full text-lg p-2 pt-3 pr-3 flex justify-center text-center paragraph-color-text">{DESC}</p>
                 
                 {/* Button Links */}
-                <div className="flex flex-wrap justify-center">
-                    {linkInformation.map((item) => (
-                        <CoolButton 
-                        href={item.href}
-                        icon={item.icon}
-                        buttonTitle={item.title}
-                        />
-                    ))}
-                </div>
-                <div className="">
+                <div className="px-[15%]">
+                            <div className="flex flex-wrap justify-center">
+                            
+                                {linkInformation.map((item) => (
+                                    <div className="w-[50%] flex justify-center">
+                                        <CoolButton 
+                                        href={item.href}
+                                        icon={item.icon}
+                                        buttonTitle={item.title}
+                                        />
+                                    </div>
+                                ))}
+                            
+                            </div>
+                        </div>
+                <div className="px-[1%]">
                     {props.children}
                 </div>
                 <div id="icons" className="lg:hidden flex p-5 bottom-0 justify-center">

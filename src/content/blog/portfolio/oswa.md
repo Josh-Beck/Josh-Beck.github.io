@@ -1,10 +1,11 @@
 ---
-slug: "/blog/oswa"
+slug: "/portfolio/oswa"
 date: "April 2023"
-title: "My Experience with the OSWA Certification"
+title: "How I passed the OSWA Certification"
 subtitle: "Offensive Security Web Assessor"
 desc: "In April of 2023 I passed the OSWA, a web application hacking certification. See how I did it, what I learned, and how you can pass it too!"
 priority: 1
+tag: "portfolio"
 ---
 
 ### Introduction

@@ -163,6 +163,7 @@
         list-style-type: square;
         list-style-position: inside;
         @apply text-left;
+        @apply pb-1;
     }
 
     ul {

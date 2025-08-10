@@ -7,8 +7,8 @@ export default function ProfileContent() {
         <div>
 
             Howdy! My name is Josh. I am a Christian, husband, and Security Architect at SAS, where I lead security initiatives 
-            within the Applied Artificial Intelligence & Modeling division. In this role, I am responsible for designing secure architectures, 
-            conducting secure design reviews, and ensuring compliance with company policies & standards. Our division spearheads 
+            within the Applied Artificial Intelligence & Modeling division. In this role, I am responsible for developing secure architectures, 
+            conducting secure design reviews of our products, and ensuring compliance with company policies & standards. Our division spearheads 
             the company's development of cutting-edge agentic and generative AI systems. I am at the forefront
             of developing the innovative security controls that keep pace with our advanced engineering.
 
@@ -21,7 +21,7 @@ export default function ProfileContent() {
             <br />
             I am also an active supporter of the OWASP GenAI project, contributing to its agentic offerings by developing security 
             guidelines and best practices. I am passionate about sharing knowledge and frequently 
-            present cybersecurity content at conferences and schools, where I cover topics such as cloud security, secure code review, and 
+            present cybersecurity content at conferences and universities, where I cover topics such as cloud security, secure code review, and 
             general application security. I demonstrate my commitment to the field through 
             published HackTheBox challenges, supporting the next generation of cyber security professionals.
 

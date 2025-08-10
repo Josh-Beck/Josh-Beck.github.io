@@ -10,7 +10,7 @@ export default function Portfolio({ data }) {
 
     return <div>
             <SideBarLayout name="portfolio">
-                {nodes.concat(portfolio).sort(sortDate).map((portfolio) => (
+                {nodes.filter(filterOnTag).concat(portfolio).sort(sortDate).map((portfolio) => (
                         <Card 
                             cardTitle={portfolio.frontmatter ? portfolio.frontmatter.title : portfolio.title}
                             cardSubTitle={portfolio.frontmatter ? portfolio.frontmatter.subtitle : portfolio.name} 
@@ -30,6 +30,10 @@ export default function Portfolio({ data }) {
                     ))} */}
             </SideBarLayout>     
         </div>
+}
+
+function filterOnTag(a) {
+    return a.frontmatter.tag === "portfolio";
 }
 
 function compareFn(a,b) {
@@ -62,6 +66,7 @@ query {
                     date
                     desc
                     priority
+                    tag
             }
         }
     }

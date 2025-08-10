@@ -56,14 +56,20 @@ export default function Home() {
             {JOB_TITLE}
         </div>
 
-        <div className="flex flex-wrap justify-center">
-            {linkInformation.map((item) => (
-                <CoolButton 
-                href={item.href}
-                icon={item.icon}
-                buttonTitle={item.title}
-                />
-            ))}
+        <div className="px-[15%]">
+            <div className="flex flex-wrap justify-center">
+            
+                {linkInformation.map((item) => (
+                    <div className="w-[50%] flex justify-center">
+                        <CoolButton 
+                        href={item.href}
+                        icon={item.icon}
+                        buttonTitle={item.title}
+                        />
+                    </div>
+                ))}
+            
+            </div>
         </div>
 
         <div id="icons" className="z-50 flex p-5 justify-center bg-opacity-0">
