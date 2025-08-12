@@ -8,7 +8,19 @@ let uscLecture = `In April of 2023 I was invited to give a lecture for USC's sec
  I taught on code security, informed them how they can learn and grow in application security skills, and 
  answered career growth questions.`
 
+ let triangles = `In July of 2022 HackTheBox released my most well reviewed challenge, Triangles. This coding exercise challenged hackers to unravel a grid, using simple geometric triangulation to find the flag.`
+
+ let ip = `While with John Deere I worked as part of a diverse team to brainstorm and develop patentable concepts. This was not only an incredibly fun way to spend an hour on Friday afternoons, it also produced a number of internal invention disclosures and one defensive disclosure, released in August, 2024. This disclosure for wind erosion shows my dedication extends beyond cyber security to developing innovative concepts and going the extra mile for my company's strategic goals.`
+
 export const portfolio = [
+    {
+        "title":"Intellectual Property",
+        "name":"John Deere Defensive Disclosure",
+        "date":"August 2024",
+        "data": ip,
+        "href":"https://priorart.ip.com/IPCOM/000274922",
+        "video": ""
+    },
     {
         "title": "Juice Shop Secure Code Review",
         "name": "Triangle InfoSeCon",
@@ -31,6 +43,14 @@ export const portfolio = [
         "date":"April 2023",
         "data": uscLecture,
         "href":"https://www.cse.sc.edu/class/548",
+        "video": ""
+    },
+    {
+        "title":"HackTheBox Challenge",
+        "name":"Triangles",
+        "date":"July 2022",
+        "data": triangles,
+        "href":"https://app.hackthebox.com/challenges/363",
         "video": ""
     },
 ]
