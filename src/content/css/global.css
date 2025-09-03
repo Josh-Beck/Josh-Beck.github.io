@@ -13,11 +13,11 @@
     }
 
     .secondary-color-text {
-        @apply text-rose-300;
+        @apply text-[#cc6666];
     }
 
     .tertiary-color-text {
-        @apply text-stone-200;
+        @apply text-gray-400;
     }
 
     .tertiary-color-bg {
@@ -37,7 +37,7 @@
     }
 
     .main-color-bg {
-        @apply bg-gradient-to-r from-stone-900 to-rose-950;
+        @apply bg-gradient-to-r from-stone-800 to-stone-950;
     }
 
     .cool-button-text-color {
@@ -68,16 +68,18 @@
         @apply rounded-xl;
         @apply paragraph-color-bg;
         @apply bg-opacity-10;
-        @apply shadow-sm;
-        @apply shadow-stone-800;
+        /* @apply shadow-sm;
+        @apply shadow-stone-600; */
+        @apply border;
+        @apply border-[#cc6666];
     }
 
     .dynamic-card:hover {
         @apply transition;
         @apply ease-in-out;
-        @apply scale-105;
+        @apply scale-[102%];
         @apply shadow-lg;
-        @apply shadow-stone-900;
+        @apply shadow-stone-800;
     }
 
     /* Icons */
@@ -101,7 +103,7 @@
 
     h1 {
         @apply text-3xl;
-        @apply md:text-4xl;
+        @apply md:text-3xl;
         @apply font-bold;
         @apply text-center;
         @apply primary-color-text;
@@ -109,7 +111,7 @@
 
     h2 {
         @apply text-2xl;
-        @apply md:text-3xl;
+        @apply md:text-2xl;
         @apply text-center;
         @apply primary-color-text;
     }

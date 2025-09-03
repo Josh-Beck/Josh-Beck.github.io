@@ -15,7 +15,7 @@ export default function SideBarLayout(props) {
                 <div className="w-[40%] absolute" >
                     <img src={headshotPhoto} className="w-[45%] m-7 ml-7 mt-16 rounded-3xl flex justify-center items-center z-50" alt="Profile Picture" />
                     <div className="w-full text-6xl p-6 pt-0 flex primary-text overflow-visible whitespace-nowrap">{NAME}</div>
-                    <div className="w-full text-xl pl-7 flex font-bold paragraph-color-text">{JOB_TITLE}</div>
+                    <div className="w-full text-xl pl-7 flex font-bold secondary-color-text">{JOB_TITLE}</div>
                     <p className="w-[90%] text-lg pl-7 pt-1 paragraph-text">{DESC}</p>
 
                     <div className="flex flex-wrap w-full">
@@ -47,8 +47,8 @@ export default function SideBarLayout(props) {
 
             {/* MOBILE */}
             <div className="lg:hidden screen-background-style main-color-bg">
-                <div className="w-full text-4xl p-6 flex mt-2 text-center justify-center primary-text">{NAME}</div>
-                <div className="w-full text-2xl flex justify-center text-center paragraph-color-text font-bold"> {JOB_TITLE} </div>
+                <div className="w-full text-4xl p-6 flex mt-[5%] text-center justify-center primary-text">{NAME}</div>
+                <div className="w-full text-2xl flex justify-center text-center secondary-color-text font-bold"> {JOB_TITLE} </div>
                 <p className="w-full text p-2 pb-0 flex justify-center text-center paragraph-color-text">{DESC}</p>
                 
                 {/* Button Links */}

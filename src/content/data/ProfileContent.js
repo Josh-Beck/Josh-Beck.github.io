@@ -38,11 +38,6 @@ export default function ProfileContent() {
             <br />
             Today I keep my skills relevant and cutting-edge through the contributions to OWASP, learning from my peers as we develop
             the latest and most up-to-date cyber security controls.
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
         </div>
     )
 }

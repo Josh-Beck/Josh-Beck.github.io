@@ -18,7 +18,7 @@ export default function Home() {
                 {NAME}
             </div>
 
-            <div className="w-full text-3xl flex justify-center paragraph-text ">
+            <div className="w-full text-3xl flex justify-center secondary-text ">
                 {JOB_TITLE}
             </div>
 
@@ -48,11 +48,11 @@ export default function Home() {
         <div className="min-h-screen w-screen lg:hidden overflow-hidden screen-background-style main-color-bg">
 
         <img src={headShot} className="w-[50%] rounded-3xl mx-auto mt-[20%] z-50 flex justify-center items-center"></img>
-        <div className="w-full text-4xl text-center z-50 flex justify-center primary-text p-5">
+        <div className="w-full text-4xl text-center z-50 flex justify-center primary-text p-5 pb-0">
             {NAME}
         </div>
 
-        <div className="w-full text-2xl text-center z-50 flex justify-center paragraph-text ">
+        <div className="w-full text-xl text-center z-50 flex justify-center secondary-text ">
             {JOB_TITLE}
         </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div id="icons" className="z-50 flex p-5 justify-center bg-opacity-0">
+        <div id="icons" className="z-50 flex p-5 justify-center bg-opacity-0 bottom-0 absolute left-1/2 -ml-36">
             {icons.map((item) => (
                 <Icons 
                     name={item.name} 

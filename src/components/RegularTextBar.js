@@ -5,7 +5,7 @@ export default function RegularTextBar(props) {
             <div className="items-center hidden lg:block mt-24">
                 <h1 className="items-center ">{props.title}</h1>
                 <h2 className="items-center text-center pb-10 pt-3 ">{props.subTitle}</h2>
-                <div className="paragraph-text">{props.content}</div>
+                <div className="paragraph-text pb-[20%]">{props.content}</div>
             </div>
             <div className="mt-20 lg:hidden">
                 <h1 className="items-center px-1">{props.title}</h1>
