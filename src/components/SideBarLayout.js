@@ -38,7 +38,7 @@ export default function SideBarLayout(props) {
                 </div>
                 {/* Scroll content */}
                 <div className="w-full z-10 min-w-0 overflow-auto ...">
-                    <div className="ml-[43%] mr-[8%]">
+                    <div className="ml-[43%] mr-[8%] pb-[5%]">
                         {props.children}
                     </div>
                     

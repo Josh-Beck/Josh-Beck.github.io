@@ -13,7 +13,7 @@
     }
 
     .secondary-color-text {
-        @apply text-[#cc6666];
+        @apply text-[#A36985];
     }
 
     .tertiary-color-text {
@@ -41,7 +41,7 @@
     }
 
     .cool-button-text-color {
-        @apply text-rose-950;
+        @apply text-stone-950;
     }
     /* ^^ CHANGE COLORS ABOVE ^^ */
 
@@ -71,7 +71,7 @@
         /* @apply shadow-sm;
         @apply shadow-stone-600; */
         @apply border;
-        @apply border-[#cc6666];
+        @apply border-[#A36985];
     }
 
     .dynamic-card:hover {
