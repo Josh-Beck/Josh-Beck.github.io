@@ -2,21 +2,21 @@ export const linkInformation = [
     {
         "icon":"bio",
         "title":"Bio",
-        "href":"/profile"
+        "href":"/profile/"
     },
     {
         "icon":"career",
         "title":"Career",
-        "href":"/career"
+        "href":"/career/"
     },
     {
         "icon":"blog",
         "title":"Portfolio",
-        "href":"/portfolio"
+        "href":"/portfolio/"
     },
     {
         "icon":"contact",
         "title":"Contact",
-        "href":"/contact"
+        "href":"/contact/"
     }
 ]
