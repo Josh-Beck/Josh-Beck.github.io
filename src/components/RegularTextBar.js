@@ -10,7 +10,7 @@ export default function RegularTextBar(props) {
             <div className="mt-20 lg:hidden">
                 <h1 className="items-center px-1">{props.title}</h1>
                 <h2 className="items-center text-center pb-10 pt-3 px-3">{props.subTitle}</h2>
-                <div className="text-center paragraph-color-text px-3">{props.content}</div>
+                <div className="text-left paragraph-color-text px-7">{props.content}</div>
             </div>
         </div>
 }

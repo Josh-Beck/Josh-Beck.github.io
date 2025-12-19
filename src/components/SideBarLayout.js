@@ -48,7 +48,7 @@ export default function SideBarLayout(props) {
             {/* MOBILE */}
             <div className="lg:hidden screen-background-style main-color-bg">
                 <div className="w-full text-4xl p-6 flex mt-[5%] text-center justify-center primary-text">{NAME}</div>
-                <div className="w-full text-2xl flex justify-center text-center secondary-color-text font-bold"> {JOB_TITLE} </div>
+                <div className="w-full text-2xl flex justify-center text-center secondary-color-text font-bold px-2"> {JOB_TITLE} </div>
                 <p className="w-full text p-2 pb-0 flex justify-center text-center paragraph-color-text">{DESC}</p>
                 
                 {/* Button Links */}

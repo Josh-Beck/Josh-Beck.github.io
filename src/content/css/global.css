@@ -17,7 +17,7 @@
     }
 
     .tertiary-color-text {
-        @apply text-gray-400;
+        @apply text-stone-400;
     }
 
     .tertiary-color-bg {
@@ -29,7 +29,7 @@
     }
 
     .paragraph-color-text {
-        @apply text-stone-200;
+        @apply text-stone-300;
     }
 
     .paragraph-color-bg {

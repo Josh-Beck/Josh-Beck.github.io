@@ -1,9 +1,9 @@
 {
-  "name": "Josh-Beck.github.io",
+  "name": "Josh-Beck.github.io/",
   "homepage": "https://Josh-Beck.github.io/",
   "private": true,
   "description": "Joshua Beck's Portfolio Website",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby clean && gatsby build && gh-pages -d public"
+    "deploy": "gatsby clean && gatsby build && echo josh-beck.com > ./public/CNAME && gh-pages -d public"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
